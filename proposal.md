@@ -2,18 +2,22 @@
 
 ## Description
 
-Here I will describe what I'm going to build.
+I am going to code a game inspired from Dig Doug and Motherload.
 
 ## Must Have List
 
-- first thing
-- second thing
-- third thing
-- ...
+- Add a pause function
+- Add a menu screen
+- Add music (retro style, I'll make this on my own time)
+- Gravity
+- Levels keeping the changes you've made in the evironment off screen
+- A working money and upgrade system
+- Creating a bad guy class that spawn in caves
 
 ## Nice To Have
 
-- more stuff
-- even more stuff
-- surprisingly a larger amount of stuff
-- I couldn't believe there could be more but oh my god there is more stuff
+- A camera to follow the player (to make map creation easier for me)
+- Create gravity for various blocks
+- Add water
+- Add animations for digging and moving
+- Intro to the game

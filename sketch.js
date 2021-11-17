@@ -1,6 +1,6 @@
-// Project Title
-// Your Name
-// Date
+// Bud's Adventure
+// Hayden Wineera
+// 11/17/2021
 //
 // Extra for Experts:
 // - describe what you did to take this project "above and beyond"
