@@ -2,7 +2,7 @@
 
 ## Description
 
-I am going to create a detective text horror game.
+I am going to create a detective text horror game. This will have some visuals but will mostly contain sounds.
 
 ## Must Have List
 
@@ -16,6 +16,6 @@ I am going to create a detective text horror game.
 ## Nice To Have
 
 
-- Add animations for digging and moving
+- Add animations for characters
 - Intro to the game
-- 
+- Add advanced sound stuff (if there needs to be any imporovement)
