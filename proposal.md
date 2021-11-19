@@ -2,20 +2,19 @@
 
 ## Description
 
-I am going to create a detective text horror game. This will have some visuals but will mostly contain sounds.
+I am going to make a thriller game with various commends and pictures. With mouse function and some key function.xs
 
 ## Must Have List
 
-- Add a pause function
-- Add a menu screen
-- Add music (retro  and creepy style, I'll make this on my own time)
-- Gravity
-- create characters to talk to you
-- add sounds and effects when certain descicions are made
+- create text boxes for text to go into and prompts
+- add a pause function
+- add a menu screen
+- add music (retro style, I'll make this on my own time)
+- add sounds for the game and buttons
+- add light around mouse
+- 
 
 ## Nice To Have
 
-
-- Add animations for characters
-- Intro to the game
-- Add advanced sound stuff (if there needs to be any imporovement)
+- animations for various buttons and pictures
+- 
