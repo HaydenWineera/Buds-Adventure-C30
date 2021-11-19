@@ -15,5 +15,8 @@ function setup() {
 function draw() {
   if (state === "menuScreen") {
     background(25);
+    textSize(32);
+    text("Lights Out", windowWidth/2, windowHeight/2);
+    fill(0, 102, 153);
   }
 }
