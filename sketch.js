@@ -7,6 +7,10 @@
 
 let state;
 
+function preload() {
+  
+}
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
   state = "menuScreen";
