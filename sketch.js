@@ -22,4 +22,15 @@ function draw() {
     text("Lights Out", windowWidth/2, windowHeight/2);
     fill(0, 102, 153);
   }
+  if (state === "intro") {
+    background(20);
+    textSize(32);
+    text("intro");
+  }
+}
+
+function keyPressed() {
+  if (keyCode === ENTER) {
+    state = "intro";
+  }
 }
