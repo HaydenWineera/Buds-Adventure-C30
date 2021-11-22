@@ -2,7 +2,7 @@
 
 ## Description
 
-I am going to make a thriller game with various commends and pictures. With mouse function and some key function.xs
+I am going to make a thriller game with various commends and pictures. With mouse function and some key functions
 
 ## Must Have List
 
@@ -18,3 +18,5 @@ I am going to make a thriller game with various commends and pictures. With mous
 
 - animations for various buttons and pictures
 - 
+
+https://typeitjs.com/#installation - website for typewriter effect. 

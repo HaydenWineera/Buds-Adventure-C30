@@ -8,7 +8,6 @@
 let state;
 
 function preload() {
-  
 }
 
 function setup() {
