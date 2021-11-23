@@ -1,7 +1,7 @@
 // light's out
 // Hayden Wineera
 // 11/17/2021
-//
+
 // Extra for Experts:
 // - describe what you did to take this project "above and beyond"
 
@@ -25,7 +25,7 @@ function draw() {
   if (state === "intro") {
     background(20);
     textSize(32);
-    text("intro");
+    text("intro"); 
   }
 }
 
