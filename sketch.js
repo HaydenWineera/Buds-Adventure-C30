@@ -5,34 +5,23 @@
 // Extra for Experts:
 // - describe what you did to take this project "above and beyond"
 
-let state;
-
-function preload() {
-}
+let someText;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
-  state = "menuScreen";
-  let txt = createDiv("Press Me!");
-  txt.position(450, 700);
+  let canvas = createCanvas(1760, 600);
+  canvas.position(10, 30);
+
+  someText = createP("Some HTML string");
+  someText.position(500, 500);
+  someText.style("color", "red");
+  someText.style("font-size", "42pt");
 }
 
 function draw() {
-  if (state === "menuScreen") {
-    background(25);
-    textSize(32);
-    text("Menu Screen", windowWidth/2, windowHeight/2);
-    fill(0, 102, 153);
-  }
-  if (state === "intro") {
-    background(20);
-    textSize(32);
-    text("intro"); 
-  }
+  background(0);
+  circle(mouseX, mouseY, 100);
 }
 
-function keyPressed() {
-  if (keyCode === ENTER) {
-    state = "intro";
-  }
+function mousePressed() {
+  someText.html("What <em>you<em> changed me"); 
 }
