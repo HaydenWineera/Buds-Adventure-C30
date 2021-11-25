@@ -13,6 +13,8 @@ function preload() {
 function setup() {
   createCanvas(windowWidth, windowHeight);
   state = "menuScreen";
+  let txt = createDiv("This is an HTML string!");
+  txt.position(600, 400);
 }
 
 function draw() {

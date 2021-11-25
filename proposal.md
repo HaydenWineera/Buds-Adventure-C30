@@ -12,7 +12,6 @@ I am going to make a thriller game with various commends and pictures. With mous
 - add music (retro style, I'll make this on my own time)
 - add sounds for the game and buttons
 - add light around mouse
-- 
 
 ## Nice To Have
 
