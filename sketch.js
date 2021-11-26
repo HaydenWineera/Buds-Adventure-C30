@@ -23,5 +23,5 @@ function draw() {
 }
 
 function mousePressed() {
-  someText.html("What <em>you<em> changed me"); 
+  someText.html("What <em>you<em> change me"); 
 }
