@@ -2,9 +2,14 @@ body, html {
     padding: 0;
     margin: 5;
     height: 100%;
-    overflow: hidden;
+    overflow: visible;
 }
 
 ::-webkit-scrollbar {
     display: none;
 }
+
+#hayden {
+    color: white;
+}
+
