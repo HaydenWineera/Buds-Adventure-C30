@@ -5,9 +5,15 @@
 // Extra for Experts:
 // - describe what you did to take this project "above and beyond"
 
+
 let someText;
 
+function preload() {
+  
+}
+
 function setup() {
+  
   let canvas = createCanvas(1760, 600);
   canvas.position(10, 10);
 
