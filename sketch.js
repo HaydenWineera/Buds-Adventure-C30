@@ -8,9 +8,6 @@
 
 let someText;
 
-function preload() {
-  
-}
 
 function setup() {
   
