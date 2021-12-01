@@ -8,7 +8,6 @@
 
 let someText;
 
-
 function setup() {
   
   let canvas = createCanvas(1760, 600);

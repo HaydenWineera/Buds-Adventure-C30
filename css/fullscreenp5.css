@@ -9,4 +9,11 @@ body, html {
     display: none;
 }
 
-
+#text {
+    position: absolute;
+    font-family: 'assets/slkscre.ttf', monospace;
+    font-smooth: never;
+    font-size: 35px;
+    bottom: 180px;
+    left: 25px;
+}
