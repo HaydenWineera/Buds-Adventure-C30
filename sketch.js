@@ -24,6 +24,5 @@ function draw() {
 }
 
 function mousePressed() {
-  someText.html = "keep <span style=\"color: white;\">clicking!</span>"; 
-  // supposed to look like <span style="color: white;">WORD</span>
+
 }
