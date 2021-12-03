@@ -30,6 +30,8 @@ module.exports = {
     "no-unused-vars": "off"
   },
   "globals": {
+    "TypeIt": true,
+
     //allow direct access to the DOM without errors
     "document": true,
     "window": true,  
