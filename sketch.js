@@ -8,6 +8,9 @@
 
 let someText;
 let instance;
+let stringList = ["Hey this should work, if it doesn't, then that sucks... I guess", "", "", "", ""];
+let sringlist1 = ["", "", ""];
+let i = 0;
 
 function setup() {
   let canvas = createCanvas(1760, 800);
@@ -19,7 +22,8 @@ function setup() {
   someText.style("font-size", "42pt");
 
   instance = new TypeIt("#type-effect", {
-    strings: "Welcome, user, to the best text-based game you've ever played! Whenever your ready just click your LEFT MOUSE BUTTON and we will start your story...",
+    strings: "Welcome, user, to the best text-based game you've ever played! Whenever your ready just click your LEFT MOUSE BUTTON and we will start your story... Im going to just keep writing to test out the scrolling feature of this library so yeah, i'm going to keep writing and writing, how was your day? how are the kids? how is ife welp i don't actually care looks like im done talking. AAHHH everything's on fire we are all gonna die ahhhhh im on fire and talking about fire what else should i talk about i care about spelling mistakes.",
+    speed: 2,
   });
   instance.go();
 }
@@ -30,9 +34,15 @@ function draw() {
 
 function mousePressed() {
   console.log("here");
-  //when pressed it should change the html of the words that show up...
-  instance.delete().go();
-  instance.type("Testing this out...");
-  instance.go();
+  //when pressed it should change the words that show up...
+  newType();
+  i += 1;
 }
 
+function newType() {
+  instance = new TypeIt("#type-effect", {
+    string: "hello there",
+    speed: 2,
+  });
+  instance.delete.go();
+}
