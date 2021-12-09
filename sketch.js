@@ -1,4 +1,4 @@
-// light's out
+// Light's Out
 // Hayden Wineera
 // 11/17/2021
 
@@ -10,7 +10,7 @@ let someText;
 let instance;
 
 function setup() {
-  let canvas = createCanvas(1760, 800);
+  let canvas = createCanvas(1760, 760);
   canvas.position(10, 10);
 
   someText = createP("The story begins <span style=\"color: white;\">here</span>");
@@ -18,7 +18,7 @@ function setup() {
   someText.style("color", "red");
   someText.style("font-size", "42pt");
 
-  typeWrite("hey there this is just going to type something hopefully");
+  typeWrite("Welcome to the game! Alright so this is how this stuff works. Whenever there is a set of three dots like this(...) please press the [LEFT MOUSE BUTTON] to continue the script...");
 }
 
 function draw() {
@@ -26,10 +26,10 @@ function draw() {
 }
 
 function mousePressed() {
-
-  //when pressed it should change the words that show up...
+  //when pressed it should change the words that show up
+  typeWrite("So now what?");
 }
 
 function typeWrite(sentence) {
-  $("#typeArea").clearIt().typeIt(sentence, 0.05, "text").hideCursor();
+  $("#typeArea").clearIt().typeIt(sentence, 0.1, "text").hideCursor();
 }
