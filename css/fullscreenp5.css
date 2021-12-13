@@ -7,10 +7,10 @@ body, html {
 }
 
 div {
-    width: 1620px;
+    width: 1650px;
     border: 15px solid black;
-    padding: 30px;
-    margin: -20px;
+    padding: 20px;
+    margin: auto;
   }
 
 ::-webkit-scrollbar {

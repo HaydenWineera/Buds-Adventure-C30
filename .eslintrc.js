@@ -1,13 +1,14 @@
 //save this file as .eslintrc.js in the root of your project folder
 module.exports = {
   "env": {
-    "es6": true
+    "es6": true,
+    "$": true,
   },
   "extends": "eslint:recommended",
   "ecmaFeatures": {
     "blockBindings": true,
     "defaultParams": true,
-    "forOf": true
+    "forOf": true,
   },
   "rules": {
     // enable additional rules

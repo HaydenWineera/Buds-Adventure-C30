@@ -8,6 +8,10 @@
 
 let someText;
 let instance;
+let counter = 0;
+
+// story globals
+let introSeq = ['It is a cloudy and very foggy day in Shaughnessy Vancouver. In your patrol vehicle you can barely see 10 feet in front of you...','As you struggle to keep an eye on the road ahead, you barely notice the red light eminating from within the fog. You feel a pump of adrenaline and a shiver down your spine as you screech to a sudden stop...', '"<em>God its a miserable day out today<em>," you think to yourself... ']; // introduction \033[3mI\033[0m
 
 function setup() {
   let canvas = createCanvas(1760, 760);
@@ -27,7 +31,10 @@ function draw() {
 
 function mousePressed() {
   //when pressed it should change the words that show up
-  typeWrite("So now what?");
+    $("#typeArea").clearIt();
+    typeWrite(introSeq[counter]);
+    $("typeArea").typeIt;
+    counter ++;
 }
 
 function typeWrite(sentence) {
