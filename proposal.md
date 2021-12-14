@@ -16,6 +16,6 @@ I am going to make a thriller game with various commends and pictures. With mous
 ## Nice To Have
 
 - animations for various buttons and pictures
-- 
+- emphasis on certain words (ie. be able to highlight words and italisize, stuff like that)
 
 https://typeitjs.com/#installation - website for typewriter effect. 
