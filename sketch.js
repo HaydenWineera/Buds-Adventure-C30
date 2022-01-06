@@ -9,10 +9,11 @@
 let someText;
 let instance;
 let counter = 0;
-let speed = 10;
+let speed = 2;
 
 // story globals
-let introSeq = ['This is a text-based mystery game. If at any point you wish to quit, just leave the browser. BE WARNED PROGRESS WILL NOT BE SAVED...', 'Let us set the scene, shall we?...', 'You are a detective for the Vacncouver Police Department, your name is ', 'It is a cloudy and very foggy day in Shaughnessy Vancouver. In your patrol vehicle you can barely see 10 feet in front of you...','As you struggle to keep an eye on the road ahead, you barely notice the red light eminating from within the fog. You feel a pump of adrenaline and a shiver down your spine as you screech to a sudden stop...', '"God its a miserable day out today", you think to yourself... ', 'Life in Shaughnessy is pretty boring, but your job as a detective pays well so you choose not to complain...', 'The light turns green, as it does so you here another car engine rapidly approaching the intersection...', 'you see a faint black outline of what looks like an SUV before it disapears into the mist, it definately was not going the speed limit...', 'Even though you should probab;y follow up on this, you decide not too because your too lazy. "What time is it?", you think to yourself...', 'You look down at your watch, the sharp LEDs of your watch display 5:30...', '"Im off duty", you think to yourslef,"I cant go after them now, maybe later", as you mumble you let out an exhausting exhale...', 'It is true, right now you hold the department record for most arrests, as you think this you smirk']; // introduction \033[3mI\033[0m
+let introSeq = ["If at any point you wish to quit, just leave the browser. BE WARNED PROGRESS WILL NOT BE SAVED...", "Let us begin, shall we?...", "You buckle up the seatbelt of your squad car. Check the side mirrors, the rear view. All looks well...", "You grab the keys out of your pocket and put them into the ignition. The engine starts without a stutter. And you are on your way...", "The streets are littered with the homeless. You can't help but be sorry for some of them. They all start to hurry away at the sight of your car, no one likes the police around here...", "An ominous fog starts rolling in. You've noticed it happens a lot more now. ''Probably climate change'', you think to yourself...","This fog does start to worry you though, the roads start to become more troublesome to drive through. Even though you know them like the back of your hand, you still have to worry about other cars.",'As you struggle to keep an eye on the road ahead, you barely notice the red light eminating from within the fog. You feel a pump of adrenaline and a shiver down your spine as you screech to a sudden stop...', "''God what's happening today?'', you think to yourself... ", "Still stopped you here a distant noise, another car approaching the intersection...", 'The light turns green, and as it does so the car engine starts roaring louder within the fog...', 'The car drifts into the intersection before your eyes. You see a faint black outline of what looks like an SUV before it disapears into the mist, it definately was not going the speed limit...', "''Christ! I should go after them!'' You step on the gas pedal, adrenaline starts pumping through your veins. This is why you became a cop..."]; // introduction \033[3mI\033[0m
+let chase;
 
 function setup() {
   let canvas = createCanvas(1760, 760);
@@ -23,7 +24,7 @@ function setup() {
   someText.style("color", "red");
   someText.style("font-size", "42pt");
 
-  typeWrite("Welcome to the game! Alright so this is how this stuff works. Whenever there is a set of three dots like this(...) please press the [LEFT MOUSE BUTTON] to continue the script...");
+  typeWrite("Welcome to the game! Alright so this is how this stuff works. Whenever there is a set of three dots like this(...) please press the [LEFT MOUSE BUTTON] to continue the tale...");
 }
 
 function draw() {
@@ -44,5 +45,5 @@ function keyPressed(sentence) {
   }
 }
 function typeWrite(sentence) {
-  $("#typeArea").clearIt().typeIt(sentence, 0.08, "text").hideCursor();
+  $("#typeArea").clearIt().typeIt(sentence, 0.08, "text");
 }
