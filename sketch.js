@@ -35,19 +35,22 @@ function setup() {
 }
 
 function draw() {
-  background(0);
-  if (state = 0) {
+  if (state === 0) {
     background(0);
   }
-  if (state = 1) {
-    backround(0);
+  if (state === 1) {
     image(introSeqPic, 0, 0, 1760, 760);
+  }
+  if (state === 2) {
+    backround(0);
   }
 }
 
 function mousePressed() {
   //when the left mouse is clicked it should change the words that show up
+  if (counter === 2) {
     state = 1;
+  }
     $("#typeArea").clearIt();
     typeWrite(introSeq[counter]);
     $("typeArea").typeIt;
